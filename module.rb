@@ -11,7 +11,7 @@ module MyEnumerable
     ans = false
     each do |i|
       ans = true if yield i
-    
+    end
     ans
   end
 
