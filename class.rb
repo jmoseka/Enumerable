@@ -9,7 +9,7 @@ class MyList
 
   # rubocop:disable Style/ExplicitBlockArgument
   def each
-    @list.each = {|value| yield value}
+    @list.each = { |value| yield value }
   end
   # rubocop:enable Style/ExplicitBlockArgument
 end
