@@ -7,13 +7,7 @@ module MyEnumerable
     ans
   end
 
-  def any?
-    ans = false
-    each do |i|
-      ans = true if yield i
-    end
-    ans
-  end
+  
 
   def filter
     array = []
