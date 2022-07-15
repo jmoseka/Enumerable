@@ -1,6 +1,6 @@
-# Enumerable
+# Create an Enumerable
 
-> Using Ruby to solve basic coding challenges and decode morse code.
+> This project uses ruby to implement an enumerable mixin.
 
 ## Setup
 
@@ -14,14 +14,7 @@
 
 ### Project requirements
 
-    - Create a method to decode a Morse code character, takes a string parameter, and return the corresponding character in uppercase (e.g. decode_char(".-") returns "A").
-
-    - Create a method to decode an entire word in Morse code, takes a string parameter, and return the string representation. Every character in a word will be separated by a single space (e.g. decode_word("-- -.--") returns "MY").
-
-    - Create a method to decode the entire message in Morse code, takes a string parameter, and return the string representation. Every word will be separated by 3 spaces (e.g.
-
-        decode("-- -.--   -. .- -- .")
-        returns "MY NAME").
+    - use ruby to implement an enumerable mixin.
 
     - Make sure that your code is DRY.
 
@@ -32,16 +25,16 @@ To view the morse code;
     a) Clone the project
 
         ```terminal
-        git@github.com:jmoseka/decode-morse-code.git
+        git@github.com:jmoseka/Enumerable.git
         ```
     b) View the folder
         - cd into the project directory
 
             ```terminal
-            cd MorseCode.git
+            cd enumerable.git
             ```
 
-- **Congrats!** you can now view the queries in your local computer.
+- **Congrats!** you can now run ruby application on your computer
 
 ## Authors
 
