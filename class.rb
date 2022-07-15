@@ -8,6 +8,6 @@ class MyList
   end
 
   def each
-    @list.each = |n| yield n
+    @list.each = {|n| yield n}
   end
 end
