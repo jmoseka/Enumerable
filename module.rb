@@ -15,9 +15,5 @@ module MyEnumerable
     ans
   end
 
-  def filter
-    array = []
-    each { |i| array.push(i) if yield(i) }
-    array
-  end
+  
 end
